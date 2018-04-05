@@ -9,5 +9,5 @@ build:
 publish:
   steps:
     - internal/publish-step:
-        auth_token: ef9fa55b33dcdff1fb8438e203b9b07870887e16b6deff908019cd1eaa0e342a
+        auth_token: $STEPS_AUTH_TOKEN
         owner: wercker
